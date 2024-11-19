@@ -1,0 +1,132 @@
+{
+  "basics": {
+    "name": "Adrian Anton",
+    "label": "Software Architect",
+    "image": "assets/img/project-image/avatar.png",
+    "email": "aanton@binagora.com",
+    "phone": "(+54) 291-4239860",
+    "url": "https://example.com",
+    "summary": "Highly motivated Software Architect with 15+ years of experience designing and leading distributed cloud architectures using .NET and Golang. Proven ability to deliver innovative solutions across industries such as healthcare, finance, education, retail, and tech. Currently spearheading the implementation of a centralized authorization service utilizing Attribute-Based Access Control (ABAC) and Zero Trust principles to enhance security. Certified AWS Cloud Practitioner with a strong passion for advancing into AI and IoT-focused projects.",
+    "location": {
+      "address": "La falda 3750",
+      "postalCode": "8000",
+      "city": "Bahia Blanca",
+      "countryCode": "Argentina",
+      "region": "Buenos Aires"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "chiton",
+        "url": "https://github.com/chiton",
+        "display": "github.com/chiton"
+      },
+      {
+        "network": "linkedin",
+        "username": "",
+        "url": "https://www.linkedin.com/in/adriananton/",
+        "display": "linkedin.com/in/adriananton"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Edgio",
+      "position": "Senior Software Engineer",
+      "startDate": "2022-06-01",
+      "endDate": "2024-11-25",
+      "summary": "I worked on building a centralized authorization service for the company's products.",
+      "highlights": [
+        "Implemented self-serve system for teams' REST API onboarding to AWS API Gateway",
+        "Developed new APIs and message handlers in GO",
+        "Combined multiple microservices developed in .NET into a single Golang API microservice",
+        "Implemented a new authorization service using Attribute-Based Access Control (ABAC) and Zero Trust principles",
+        "Integrated with Cerbos policy engine to enforce authorization across services",
+        "Built tools to automate onboarding new features offered by the company",
+        "Used AWS Lambda functions to trigger notifications on certificates expirations"
+      ]
+    },
+    {
+      "name": "Edgecast Networks",
+      "position": "Software Engineer",
+      "startDate": "2019-05-01",
+      "endDate": "2022-06-01",
+      "summary": "I worked on building the company's own single sign-on identity provider.",
+      "highlights": [
+        "Migrated monolithic application to microservices architecture",
+        "Architected AWS Cloud infrastructure and established GitLab CI/CD pipeline",
+        "Led PostgreSQL to MongoDB database migration",
+        "Contributed to OAuth2 authorization flow implementation",
+        "Developed login page workflow with 2-factor authentication",
+        "Built REST API endpoints for security and access services features",
+        "Migrated messaging system from ActiveMQ to Kafka",
+        "Managed AWS infrastructure with Terraform and GitLab CI/CD deployments"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Development",
+      "level": "Expert",
+      "keywords": [
+        ".NET, Golang, Kafka,",
+        "Mongo Atlas, Postgres, MS SQL,",
+        "Domain-Driven Design, CQRS,",
+        "Event-Driven Architectures,",
+        "REST API, Distributed Systems",
+        "Terraform with AWS provider, Mandrill",
+        "GitLab CI/CD Processes"
+      ]
+    },
+    {
+      "name": "Cloud Platforms",
+      "level": "Advanced",
+      "keywords": [
+        "AWS Api Gateway, AWS ECS Fargate,",
+        "AWS  MSK for Kafka, AWS  Secrets Manager,",
+        "AWS App Config, Aurora RDS,",
+        "AWS Lambda, AWS S3,",
+        "AWS  ALB/NLB, AWS  CloudWatch,",
+        "AWS  Route53, AWS EventBridge Scheduler,",
+        "AWS IAM, Containerization"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": [
+        "basketball",
+        "swimming",
+        "soccer"
+      ]
+    },
+    {
+      "name": "Motorbikes",
+      "keywords": [
+        "races",
+        "motocross",
+        "touring"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "date": "2024-07-05",
+      "issuer": "AWS",
+      "url": "https://www.credly.com/badges/4c4a9d1d-6b39-45e3-9375-adb3debf0b1b/linked_in?t=sgb4xt"
+    }
+  ],
+  "projects": []
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="{{ 'assets/styles.css' | url }}">
+  <title>
+    Resume of 
+    {{ resume.basics.name }}, 
+    {{ resume.basics.label }}
+  </title>
+</head>
+<body>
+  {% set basics = resume.basics %}
+  {% include "components/header.njk" %}
+
+  <main>
+    {% set summary = resume.basics.summary %}
+    {% include "components/summary.njk" %}
+
+    {% set skills = resume.skills %}
+    {% include "components/skills.njk" %}
+
+    {% set work = resume.work %}
+    {% include "components/experience.njk" %}
+
+    {% if resume.certificates.length > 0 %}
+      {% set certifications = resume.certificates %}
+      {% include "components/certifications.njk" %}
+    {% endif %}
+
+    {% if resume.projects.length > 0 %}
+      {% set projects = resume.projects %}
+      {% include "components/projects.njk" %}
+     {% endif %}
+
+    {% if resume.education.length > 0 %}
+      {% set education = resume.education %}
+      {% include "components/education.njk" %}
+    {% endif %}
+    <section class="print-button-section">
+      <button id="printButton" onclick="window.print()">Print as PDF</button>
+    </section>
+  </main>
+</body>
+
+</html>

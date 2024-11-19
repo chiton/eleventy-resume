@@ -1,0 +1,24 @@
+{
+  "name": "psaweikis-resume-eleventy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {    
+    "build:css": "tailwindcss -i src/assets/styles.scss -o src/assets/styles.css --style=compressed --postcss",
+    "build:example": "npm run build:css && npx eleventy --output ./example",
+    "build": "npm run build:css && eleventy",
+    "start": "npm run build:css && eleventy --serve",
+    "deploy": "npm run build:css && eleventy && wrangler pages deploy public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.48",
+    "tailwindcss": "^3.4.14"
+  }
+}

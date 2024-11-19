@@ -1,0 +1,17 @@
+<section class="section experience-section">
+  <h2 class="section-title">Certificates</h2>
+  <div class="section-content">
+    {% for cert in certifications %}
+      <section class="job-entry page-break-inside-avoid">
+        <header class="job-header">
+          <h1 class="company-name">{{ cert.name }}</h1>
+          <h2 class="position-title">{{ cert.issuer }}</h2>
+          <span class="job-date">
+              {{ cert.date }}
+          </span>
+        </header>
+        <a href="{{ cert.url }}" target="_blank">View Certificate</a>
+      </section>
+    {% endfor %}
+  </div>
+</section>
