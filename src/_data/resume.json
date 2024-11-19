@@ -128,5 +128,15 @@
       "url": "https://www.credly.com/badges/4c4a9d1d-6b39-45e3-9375-adb3debf0b1b/linked_in?t=sgb4xt"
     }
   ],
+  "education": [
+    {
+      "institution": "Universidad Nacional del Sur",
+      "url": "https://www.uns.edu.ar",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "1997-03-01",
+      "endDate": "2004-09-30"
+    }
+  ],
   "projects": []
 }

@@ -1,23 +1,16 @@
-<section>
-  <h2>Education</h2>
-  {% for education in resume.education %}
-    <section>
-      <header>
-        <h3>
-          {{ education.studyType }} in {{ education.area }}
-        </h3>
-        <span>
-          {{ education.institution }}
-          {% if education.focus %}
-          , <span class="focus">
-            Focus: {{ education.focus }}
+<section class="section experience-section">
+  <h2 class="section-title">Education</h2>
+   <div class="section-content">
+    {% for education in resume.education %}
+      <section class="job-entry page-break-inside-avoid">
+        <header class="job-header">
+          <h1 class="company-name">{{ education.studyType }} in {{ education.area }}</h1>
+          <h2 class="position-title"><a href="{{ education.url }}" target="_blank">{{ education.institution }}</a></h2>
+          <span class="job-date">
+              {{ education.startDate }} &ndash; {{ education.endDate }}
           </span>
-          {% endif %}
-        </span>
-        <span class="date">
-          {{ education.startDate }} &ndash; {{ education.endDate }}
-        </span>
-      </header>
-    </section>
-  {% endfor %}
+        </header>
+      </section>
+    {% endfor %}
+   </div>
 </section>
