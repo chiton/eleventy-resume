@@ -31,7 +31,7 @@
   },
   "work": [
     {
-      "name": "Edgio",
+      "name": "Edgio at Binagora",
       "position": "Senior Software Engineer",
       "startDate": "2022-06-01",
       "endDate": "2024-11-25",
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "name": "Edgecast Networks",
+      "name": "Edgecast Networks at Binagora",
       "position": "Software Engineer",
       "startDate": "2019-05-01",
       "endDate": "2022-06-01",
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "name": "Hexacta",
+      "name": "Credit One Bank at Hexacta",
       "position": "Senior Software Architect",
       "startDate": "2015-10-01",
       "endDate": "2019-05-01",
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "name": "Globant",
+      "name": "Deloitte at Globant",
       "position": "Software Architect",
       "startDate": "2011-02-01",
       "endDate": "2015-03-31",
@@ -92,18 +92,18 @@
       ]
     },
     {
-      "name": "HP Enterprise Services",
+      "name": "American Airlines at HP Enterprise Services",
       "position": "Senior Software Developer",
       "startDate": "2010-02-01",
       "endDate": "2011-02-01",
-      "summary": "I contributed to the development of tools for American Airlines client.",
+      "summary": "I contributed to the development of tools for American Airlines.",
       "highlights": [
         "Developed and implemented flight scheduling optimization tools",
         "Implemented automated testing framework improving code coverage"
       ]
     },
     {
-      "name": "Huddle Group",
+      "name": "PAi at Huddle Group",
       "position": "Development Team Coordinator",
       "startDate": "2007-09-01",
       "endDate": "2010-02-01",
@@ -121,7 +121,7 @@
       "name": "Development",
       "level": "Expert",
       "keywords": [
-        ".NET, Golang, Kafka,",
+        ".NET, Golang, Kafka, OAuth2",
         "Mongo Atlas, Postgres, MS SQL,",
         "Domain-Driven Design, CQRS,",
         "Event-Driven Architectures,",
@@ -170,6 +170,14 @@
         "motocross",
         "touring"
       ]
+    },
+    {
+      "name": "Beer",
+      "keywords": [
+        "homebrewing",
+        "craft beer",
+        "beer tasting"
+      ]
     }
   ],
   "certificates": [
@@ -185,7 +193,7 @@
       "institution": "Universidad Nacional del Sur",
       "url": "https://www.uns.edu.ar",
       "area": "Computer Science",
-      "studyType": "Bachelor",
+      "studyType": "Master",
       "startDate": "1997-03-01",
       "endDate": "2004-09-30"
     }
