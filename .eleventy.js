@@ -1,7 +1,7 @@
 const { exec } = require("child_process");
 
 // If you want to filter out old experience:
-const earliestYear = 2019;
+const earliestYear = 2007;
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");

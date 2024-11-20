@@ -3,7 +3,7 @@
     "name": "Adrian Anton",
     "label": "Software Architect",
     "image": "assets/img/project-image/avatar.png",
-    "email": "aanton@binagora.com",
+    "email": "adrian.h.anton@gmail.com",
     "phone": "(+54) 291-4239860",
     "url": "chiton.github.io/",
     "summary": "Highly motivated Software Architect with 15+ years of experience designing and leading distributed cloud architectures using .NET and Golang. Proven ability to deliver innovative solutions across industries such as healthcare, finance, education, retail, and tech. Currently spearheading the implementation of a centralized authorization service utilizing Attribute-Based Access Control (ABAC) and Zero Trust principles to enhance security. Certified AWS Cloud Practitioner with a strong passion for advancing into AI and IoT-focused projects.",
@@ -37,13 +37,13 @@
       "endDate": "2024-11-25",
       "summary": "I worked on building a centralized authorization service for the company's products.",
       "highlights": [
-        "Implemented self-serve system for teams' REST API onboarding to AWS API Gateway",
-        "Developed new APIs and message handlers in GO",
-        "Combined multiple microservices developed in .NET into a single Golang API microservice",
-        "Implemented a new authorization service using Attribute-Based Access Control (ABAC) and Zero Trust principles",
-        "Integrated with Cerbos policy engine to enforce authorization across services",
-        "Built tools to automate onboarding new features offered by the company",
-        "Used AWS Lambda functions to trigger notifications on certificates expirations"
+        "Architected and implemented a self-service system enabling teams to onboard REST APIs to AWS API Gateway",
+        "Developed and maintained high-performance microservices using Golang and .NET",
+        "Led consolidation of multiple .NET microservices into a unified Golang API service, improving maintainability",
+        "Designed and implemented enterprise-wide authorization service using ABAC and Zero Trust architecture",
+        "Integrated Cerbos policy engine to establish consistent authorization patterns across the platform",
+        "Developed automation tools to streamline feature onboarding processes",
+        "Implemented AWS Lambda-based monitoring system for SSL certificate lifecycle management"
       ]
     },
     {
@@ -53,14 +53,66 @@
       "endDate": "2022-06-01",
       "summary": "I worked on building the company's own single sign-on identity provider.",
       "highlights": [
-        "Migrated monolithic application to microservices architecture",
-        "Architected AWS Cloud infrastructure and established GitLab CI/CD pipeline",
-        "Led PostgreSQL to MongoDB database migration",
-        "Contributed to OAuth2 authorization flow implementation",
-        "Developed login page workflow with 2-factor authentication",
-        "Built REST API endpoints for security and access services features",
-        "Migrated messaging system from ActiveMQ to Kafka",
-        "Managed AWS infrastructure with Terraform and GitLab CI/CD deployments"
+        "Led migration from monolithic architecture to microservices, improving system scalability and maintainability",
+        "Designed and implemented AWS Cloud infrastructure with automated GitLab CI/CD pipelines",
+        "Successfully executed large-scale database migration from PostgreSQL to MongoDB",
+        "Implemented OAuth2 authorization flows and 2FA authentication system",
+        "Developed RESTful APIs for security and access management features",
+        "Orchestrated messaging system migration from ActiveMQ to Kafka",
+        "Managed infrastructure as code using Terraform with AWS provider"
+      ]
+    },
+    {
+      "name": "Hexacta",
+      "position": "Senior Software Architect",
+      "startDate": "2015-10-01",
+      "endDate": "2019-05-01",
+      "summary": "I contributed to the modernization of systems for a leading U.S. bank, enabling them to scale their operations for business expansion. One of my key achievements was leading a project to enhance customer experience by integrating a decision engine into all bank channels. This allowed the bank to offer tailored products to each client.",
+      "highlights": [
+        "Architected and led implementation of microservices-based banking platform",
+        "Designed and developed RESTful ASP.NET Web APIs for banking services integration",
+        "Led technical strategy for multi-channel integration of banking services",
+        "Implemented PEGA-based decision engine workflows for personalized banking experiences"
+      ]
+    },
+    {
+      "name": "Globant",
+      "position": "Software Architect",
+      "startDate": "2011-02-01",
+      "endDate": "2015-03-31",
+      "summary": "I worked on developing a polling engine for Deloitte's clients.",
+      "highlights": [
+        "Led development team of 10+ engineers, managing technical direction and delivery of enterprise polling platform",
+        "Designed and implemented scalable architecture for high-volume survey processing system",
+        "Established technical standards and best practices, conducting regular code reviews to ensure quality",
+        "Drove technical discussions with stakeholders to align business requirements with technical solutions",
+        "Developed core framework components used across the entire application ecosystem",
+        "Mentored team members on software design patterns and best practices",
+        "Implemented agile methodologies to improve team productivity and project delivery"
+      ]
+    },
+    {
+      "name": "HP Enterprise Services",
+      "position": "Senior Software Developer",
+      "startDate": "2010-02-01",
+      "endDate": "2011-02-01",
+      "summary": "I contributed to the development of tools for American Airlines client.",
+      "highlights": [
+        "Developed and implemented flight scheduling optimization tools",
+        "Implemented automated testing framework improving code coverage"
+      ]
+    },
+    {
+      "name": "Huddle Group",
+      "position": "Development Team Coordinator",
+      "startDate": "2007-09-01",
+      "endDate": "2010-02-01",
+      "summary": "I worked on integrating Pivotal CRM on a .NET platform solution.",
+      "highlights": [
+        "Architected and implemented RESTful web service facade integrating Pivotal CRM with enterprise systems",
+        "Led team of 3 developers in successful delivery of CRM integration project",
+        "Reduced system integration complexity through standardized API design",
+        "Implemented automated deployment pipeline reducing deployment time"
       ]
     }
   ],
@@ -73,8 +125,8 @@
         "Mongo Atlas, Postgres, MS SQL,",
         "Domain-Driven Design, CQRS,",
         "Event-Driven Architectures,",
-        "REST API, Distributed Systems",
-        "Terraform with AWS provider, Mandrill",
+        "REST API, Distributed Systems,",
+        "Terraform with AWS provider, Mandrill,",
         "GitLab CI/CD Processes"
       ]
     },

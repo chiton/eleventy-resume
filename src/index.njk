@@ -39,6 +39,11 @@
       {% set education = resume.education %}
       {% include "components/education.njk" %}
     {% endif %}
+
+    {% if resume.interests.length > 0 %}
+      {% set interests = resume.interests %}
+      {% include "components/interests.njk" %}
+    {% endif %}
     
     <section class="print-button-section">
       <button id="printButton" onclick="window.print()">Print as PDF</button>

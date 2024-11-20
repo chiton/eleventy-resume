@@ -1,0 +1,19 @@
+<section class="section experience-section">
+  <h2 class="section-title">Interests</h2>
+  <div class="section-content">
+    {% for interest in interests %}
+      <section class="job-entry page-break-inside-avoid">
+        <header class="job-header">
+          <h1 class="company-name">{{ interest.name }}</h1>
+        </header>
+        <ul>
+          {% for keyword in interest.keywords %}
+            <li class="list-disc list-inside">
+              {{ keyword }}
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endfor %}
+  </div>
+</section>
